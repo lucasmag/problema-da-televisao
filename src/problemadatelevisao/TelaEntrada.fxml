@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" style="-fx-background-color: #af832a;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="problemadatelevisao.TelaEntrada">
+   <children>
+      <ImageView fitHeight="670.0" fitWidth="1190.0" layoutX="10.0" layoutY="10.0" nodeOrientation="INHERIT" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/3D-design-of-VIP-reception-room-luxury-hotel.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="773.0" layoutY="72.0" prefHeight="545.0" prefWidth="343.0">
+         <children>
+            <ImageView fitHeight="636.0" fitWidth="261.0" layoutX="52.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/controle.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menosHospPressed" fitHeight="50.0" fitWidth="90.0" layoutX="82.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/minusPressed.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menosHosp" fitHeight="50.0" fitWidth="87.0" layoutX="78.0" layoutY="170.0" onMouseClicked="#menosHospClicar" onMouseEntered="#menosHospEntrar" onMouseExited="#menosHospSair" onMousePressed="#menosHospApertar" onMouseReleased="#menosHospSoltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/minus.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="maisHospPressed" blendMode="ADD" fitHeight="50.0" fitWidth="102.0" layoutX="178.0" layoutY="165.0" onMouseClicked="#maisCanalPressedApertar" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/plusPressed.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="maisHosp" fitHeight="67.0" fitWidth="87.0" layoutX="174.0" layoutY="170.0" onMouseClicked="#maisHospClicar" onMouseEntered="#maisHospEntrar" onMouseExited="#maisHospSair" onMousePressed="#maisHospApertar" onMouseReleased="#maisHospSoltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/plus.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="maisCanalPressed" blendMode="ADD" fitHeight="50.0" fitWidth="102.0" layoutX="176.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/plusPressed.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="maisCanal" fitHeight="67.0" fitWidth="87.0" layoutX="173.0" layoutY="268.0" onMouseClicked="#maisCanalClicar" onMouseEntered="#maisCanalEntrar" onMouseExited="#maisCanalSair" onMousePressed="#maisCanalApertar" onMouseReleased="#maisCanalSoltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/plus.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menosCanalPressed" blendMode="ADD" fitHeight="50.0" fitWidth="87.0" layoutX="80.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/minusPressed.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menosCanal" fitHeight="50.0" fitWidth="87.0" layoutX="77.0" layoutY="268.0" onMouseClicked="#menosCanalClicar" onMouseEntered="#menosCanalEntrar" onMouseExited="#menosCanalSair" onMousePressed="#menosCanalApertar" onMouseReleased="#menosCanalSoltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/minus.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnPlayPressed" fitHeight="50.0" fitWidth="86.0" layoutX="127.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/playButtonPressed.png" />
+               </image>
+               <effect>
+                  <Blend mode="ADD" opacity="0.4" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="btnPlay" fitHeight="50.0" fitWidth="116.0" layoutX="123.0" layoutY="359.0" onMouseEntered="#playEntrar" onMouseExited="#playSair" onMousePressed="#playApertar" onMouseReleased="#playSoltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/playButton.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnPowerPressed" fitHeight="50.0" fitWidth="62.0" layoutX="80.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/powrPressed.png" />
+               </image>
+               <effect>
+                  <Blend mode="ADD" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="btnPower" fitHeight="50.0" fitWidth="56.0" layoutX="80.0" layoutY="46.0" onMouseEntered="#powerEntrar" onMouseExited="#powerSair" onMousePressed="#powerApertar" onMouseReleased="#powerSoltar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/power.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="143.0" layoutY="148.0" text="HÓSPEDE" textFill="#c6c6c6" />
+            <Label layoutX="152.0" layoutY="247.0" text="CANAL" textFill="#c6c6c6" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="60.0" layoutY="164.0" prefHeight="441.0" prefWidth="613.0">
+         <children>
+            <ImageView fitHeight="405.0" fitWidth="601.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/tvAmarelaesc.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Label layoutX="429.0" layoutY="79.0" text="Tempos de TV" textFill="WHITE">
+               <font>
+                  <Font name="Cheap Potatoes" size="10.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label layoutX="404.0" layoutY="162.0" text="Tempos de descanso" textFill="WHITE">
+               <font>
+                  <Font name="Cheap Potatoes" size="10.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="lblCanal" alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="146.0" prefHeight="84.0" prefWidth="87.0" text="1" textFill="WHITE">
+               <font>
+                  <Font name="Sketch 3D" size="66.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="lblHospede" alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="67.0" prefHeight="84.0" prefWidth="87.0" text="1" textFill="WHITE">
+               <font>
+                  <Font name="Sketch 3D" size="66.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label layoutX="68.0" layoutY="76.0" prefHeight="65.0" prefWidth="188.0" text="HÓSPEDES" textFill="WHITE">
+               <font>
+                  <Font name="Cheap Potatoes" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label layoutX="68.0" layoutY="153.0" prefHeight="65.0" prefWidth="143.0" text="CANAIS" textFill="WHITE">
+               <font>
+                  <Font name="Cheap Potatoes" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <TextField fx:id="txtMinTv" alignment="CENTER" layoutX="398.0" layoutY="109.0" prefHeight="25.0" prefWidth="77.0" />
+            <TextField fx:id="txtMaxTv" alignment="CENTER" layoutX="485.0" layoutY="109.0" prefHeight="25.0" prefWidth="77.0" />
+            <TextField fx:id="txtMinDesc" alignment="CENTER" layoutX="398.0" layoutY="200.0" prefHeight="25.0" prefWidth="77.0" />
+            <TextField fx:id="txtMaxDesc" alignment="CENTER" layoutX="485.0" layoutY="200.0" prefHeight="25.0" prefWidth="77.0" />
+            <ImageView fx:id="avisoDesc" fitHeight="77.0" fitWidth="562.0" layoutX="32.0" layoutY="279.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/aviso3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="avisoTv" fitHeight="150.0" fitWidth="562.0" layoutX="32.0" layoutY="279.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/aviso4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="campos" fitHeight="150.0" fitWidth="562.0" layoutX="32.0" layoutY="279.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/aviso5.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tvDesl" fitHeight="308.0" fitWidth="582.0" layoutX="22.0" layoutY="18.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../imagens/tvDesl.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="308.0" fitWidth="481.0" layoutX="22.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/sombraTv.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="174.0" fitWidth="462.0" layoutX="53.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ligue" fitHeight="150.0" fitWidth="200.0" layoutX="652.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/ligueTv.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

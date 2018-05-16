@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="672.0" prefWidth="1200.0" snapToPixel="false" style="-fx-background-color: #f9f9f9;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <SplitPane dividerPositions="0.7126099706744868" layoutX="884.0" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="684.0" prefWidth="318.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="310.0">
+               <children>
+                  <ImageView fitHeight="684.0" fitWidth="318.0" layoutY="-1.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../imagens/fundoVisao.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane fx:id="ancora0" layoutX="6.0" layoutY="64.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 1" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah0" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh0" alignment="CENTER" layoutX="96.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch0" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora1" layoutX="161.0" layoutY="64.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 2" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah1" alignment="CENTER" layoutX="22.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh1" alignment="CENTER" layoutX="96.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch1" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora2" layoutX="6.0" layoutY="148.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 3" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah2" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh2" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch2" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora3" layoutX="161.0" layoutY="148.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 4" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah3" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh3" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch3" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora4" layoutX="6.0" layoutY="232.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 5" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah4" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh4" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch4" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora5" layoutX="161.0" layoutY="232.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 6" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah5" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh5" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch5" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora6" layoutX="6.0" layoutY="316.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 7" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah6" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh6" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch6" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora7" layoutX="161.0" layoutY="316.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 8" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah7" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh7" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch7" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora8" layoutX="6.0" layoutY="400.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 9" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah8" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh8" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch8" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancora9" layoutX="161.0" layoutY="400.0" opacity="0.2" prefHeight="80.0" prefWidth="150.0" style="-fx-background-color: #f2eded;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Hóspede 10" textFill="#6f6f6f">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="88.0" layoutY="7.0" text="Canal:" textFill="#464646" />
+                        <AnchorPane layoutY="30.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f7f7f7;">
+                           <children>
+                              <Label layoutX="18.0" layoutY="5.0" text="Assistir" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="84.0" layoutY="5.0" text="Descansar" textFill="#757575">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ah9" alignment="CENTER" layoutX="23.0" layoutY="22.0" prefHeight="21.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dh9" alignment="CENTER" layoutX="97.0" layoutY="23.0" prefHeight="20.0" prefWidth="30.0" text="99">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="ch9" layoutX="125.0" layoutY="5.0" text="99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="50.0" fitWidth="172.0" layoutX="71.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/visao.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="-1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="220.0" prefWidth="316.0">
+               <children>
+                  <TextArea fx:id="logText" layoutY="228.0" prefHeight="676.0" prefWidth="316.0" promptText="&gt;start" text="&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&gt;start" AnchorPane.bottomAnchor="0.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <ImageView fx:id="fundoPreto" fitHeight="34.0" fitWidth="60.0" layoutX="516.0" layoutY="11.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/tvoff.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="maluco" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="10.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/intro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="globorural" fitHeight="41.0" fitWidth="67.0" layoutX="513.0" layoutY="9.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/globo-rural-logo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quesomeesse" fitHeight="34.0" fitWidth="60.0" layoutX="516.0" layoutY="12.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/THUMB_INSTRflauta.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="deondevem" fitHeight="41.0" fitWidth="67.0" layoutX="513.0" layoutY="8.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/CYo8IdxWsAAmSSl.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jogo" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="9.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/635710473993105822w.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bb" fitHeight="40.0" fitWidth="60.0" layoutX="517.0" layoutY="10.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/bb.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="discoveryy" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="9.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/discovery.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jogo" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="9.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/635710473993105822w.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rato" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="9.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/fwYIuR52s.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="queonda" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="10.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/onda.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bear" fitHeight="40.0" fitWidth="60.0" layoutX="516.0" layoutY="9.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/bear-grylls-heart-630x339.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="684.0" fitWidth="884.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/hotel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="balao" fitHeight="34.0" fitWidth="54.0" layoutX="586.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/balao.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblCanalAtual" alignment="CENTER" contentDisplay="CENTER" layoutX="596.0" layoutY="9.0" prefHeight="25.0" prefWidth="32.0" text="99">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="36.0" fitWidth="20.0" layoutX="757.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/recep.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boy1" fitHeight="41.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/boy1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="girl1" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/girl1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boy2" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/boy2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="girl2" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/girl2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boy3" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/boy3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="girl3" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/girl3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boy1Back" fitHeight="40.0" fitWidth="20.0" layoutX="143.0" layoutY="59.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../imagens/boy1back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boy4" fitHeight="40.0" fitWidth="20.0" layoutX="432.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/boy4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="girl4" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/girl4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oldMan" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/oldMan.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oldWoman" fitHeight="40.0" fitWidth="20.0" layoutX="433.0" layoutY="601.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/oldWoman.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="254.0" layoutX="417.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/sofa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="controleTv" fitHeight="17.0" fitWidth="20.0" layoutX="598.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/controlezinho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="info2" fitHeight="594.0" fitWidth="884.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../imagens/intro1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="info3" fitHeight="602.0" fitWidth="884.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../imagens/info2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="info4" fitHeight="594.0" fitWidth="912.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../imagens/info3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="info1" fitHeight="594.0" fitWidth="892.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/info4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="info5" fitHeight="594.0" fitWidth="884.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../imagens/aproveite.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="1.0" layoutY="593.0" prefHeight="92.0" prefWidth="884.0" style="-fx-background-color: #ededed;">
+         <children>
+            <ImageView fitHeight="92.0" fitWidth="884.0" layoutX="-1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../imagens/fundoDown.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="108.0" fitWidth="278.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="dicas" layoutX="24.0" layoutY="537.0" mnemonicParsing="false" onAction="#pularDicas" style="-fx-background-color: #000000;" text="Pular dicas" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="proximo" layoutX="777.0" layoutY="537.0" mnemonicParsing="false" onAction="#proxInfo" text="Próximo">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="anterior" layoutX="681.0" layoutY="537.0" mnemonicParsing="false" onAction="#anteInfo" text="Anterior">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
