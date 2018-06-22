@@ -12,9 +12,9 @@ Em uma pousada há apenas uma televisão que pega N canais. Os hóspedes apenas 
 
 * Java Runtime Environment (JRE) 8 ou mais recente.
 
-```
-[JRE 8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jre8-downloads-2133155.html)
-```
+
+ Link: [JRE 8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jre8-downloads-2133155.html)
+
 
 ### Executando
 
